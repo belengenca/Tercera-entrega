@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fdf3e5;
+}
+
+h1 {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+.bg {
+  background-color: #6876ce !important;
+}
+
+a {
+  color: #fdf3e5;
+  font-size: 20px;
+  font-weight: 250px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 20px;
+}
+
+footer {
+  padding: 22px;
+  border-top: #6876ce 1px solid;
+}
+
+main h1, main h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contenedorImagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgCeluCompu {
+  width: 900px;
+  margin-top: 50px;
+  height: auto;
+  max-width: 100%;
+}
+
+.imgCeluCompu2 {
+  width: 900px;
+  margin-bottom: 30px;
+  height: auto;
+  max-width: 100%;
+}
+
+form {
+  margin: 50px 25px 20px 60px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: #6876ce;
+}
+
+input, textarea {
+  display: block;
+  width: 98%;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.botonForm {
+  background-color: #6876ce;
+  color: #fdf3e5;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.mapa {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.contenedorContacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons {
+  min-width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 90px;
+}
+.buttons i {
+  text-decoration: none;
+  font-size: 4vw;
+  width: 10vw;
+  height: 10vw;
+  line-height: 10vw;
+  text-align: center;
+  background: #6876ce;
+  color: #fdf3e5;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+.buttons i:hover {
+  transform: scale(1.2);
+}
+
+/* la idea es asociar links de las redes sociales a los botones */
+.contenedorEstudiaConNosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorEstudiaConNosotros img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.contenedorTrabajos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+}
+.contenedorTrabajos img {
+  margin-top: 20px;
+  border: black 2px solid;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.contenedorQS {
+  border: #6876ce 2px solid;
+  border-radius: 14px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contenedorQS p {
+  text-align: center;
+}
+
+.equipo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+}
+
+.personas {
+  margin: 100px 100px 100px 100px;
+}
+
+.todosLosPremios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.premios {
+  margin: 100px 100px 100px 100px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

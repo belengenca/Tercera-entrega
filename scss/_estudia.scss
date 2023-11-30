@@ -1,0 +1,13 @@
+.contenedorEstudiaConNosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    img {
+      margin-top: 70px;
+      margin-bottom: 70px;
+      cursor: pointer;
+    }
+  }

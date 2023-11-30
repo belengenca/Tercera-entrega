@@ -1,0 +1,38 @@
+.contenedorQS {
+    border: $color-lila 2px solid;
+    border-radius: 14px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    p {
+      text-align: center;
+    }
+  }
+  
+  .equipo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+  }
+  
+  .personas {
+    margin: 100px 100px 100px 100px;
+  }
+  
+  .todosLosPremios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .premios {
+    margin: 100px 100px 100px 100px;
+  }

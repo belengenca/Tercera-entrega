@@ -1,0 +1,15 @@
+.contenedorTrabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+  
+    img {
+      margin-top: 20px;
+      border: $color-negro 2px solid;
+      margin-bottom: 50px;
+      cursor: pointer;
+    }
+  }

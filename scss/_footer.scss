@@ -1,0 +1,11 @@
+
+@mixin footer {
+    padding: 22px;
+    border-top: $color-lila 1px solid;
+}
+
+
+footer{
+    
+    @include footer;
+}

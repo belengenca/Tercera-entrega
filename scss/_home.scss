@@ -1,0 +1,26 @@
+main {
+    h1, h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+  
+  .contenedorImagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imgCeluCompu {
+    width: 900px;
+    margin-top: 50px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .imgCeluCompu2 {
+    width: 900px;
+    margin-bottom: 30px;
+    height: auto;
+    max-width: 100%;
+  }

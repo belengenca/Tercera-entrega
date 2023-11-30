@@ -1,0 +1,29 @@
+.logo {
+    width: 100px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.bg {
+    background-color: $color-lila !important;
+}
+
+a {
+    color: $color-crema;
+    font-size: 20px;
+    font-weight: 250px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+
+
